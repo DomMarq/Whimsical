@@ -21,7 +21,11 @@ class Board:
                 if self.board[y][x] == None:
                     self.board[y][x] = card
                     placed = True
+<<<<<<< HEAD
                     # print("Placed: \n{}\n".format(card.stringify()))
+=======
+                    print("Placed: \n{}\n".format(card.stringify()))
+>>>>>>> 2b03632f83b1d06a77e5a20ccd8c2daf9c5cbd69
 
     def print_board(self):
         # print(self.board)
